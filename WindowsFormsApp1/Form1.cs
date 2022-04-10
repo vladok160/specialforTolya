@@ -18,12 +18,12 @@ namespace WindowsFormsApp1
         }
         private void button1_Click(object sender, EventArgs e)
         {
-            textBox2.Text = Shifr.Zashifr(textBox1.Text, textBox3.Text);
+            textBox2.Text = Shifr.Zashifr(textBox1.Text.ToLower(), textBox3.Text);
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            textBox6.Text = Deshifr.DeshifrText(textBox2.Text);
+            textBox6.Text = Deshifr.DeshifrText(textBox2.Text.ToLower());
         }
     }
 }
