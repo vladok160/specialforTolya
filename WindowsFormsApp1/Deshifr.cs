@@ -9,9 +9,9 @@ namespace WindowsFormsApp1
     class Deshifr
     {
         static Dictionary<char, int> d1 = new Dictionary<char, int>();
-
+       
         static Dictionary<char, double> arr_frequency = new Dictionary<char, double>();
-
+        
         static Dictionary<char, double> sortdict;
 
         int lenofdict = 0;
@@ -19,7 +19,7 @@ namespace WindowsFormsApp1
         static char[] arr_letters = {'а', 'б', 'в', 'г', 'д', 'е', 'ё', 'ж',
                        'з', 'и', 'й', 'к', 'л', 'м', 'н', 'о',
                        'п', 'р', 'с', 'т', 'у', 'ф', 'х', 'ц',
-                       'ч', 'ш', 'щ', 'ъ', 'ы', 'ь', 'э', 'ю', 'я', ' '};
+                       'ч', 'ш', 'щ', 'ъ', 'ы', 'ь', 'э', 'ю', 'я', ' ', ',', '!', '?', ';'};
 
         static char[] arr_encrypt_letters = { ' ', 'о', 'а', 'е', 'и', 'т', 'н', 'л',
             'р', 'с', 'в', 'к', 'м', 'д', 'у', 'п', 'б', 'г', 'ы', 'ч', 'ь',
