@@ -23,7 +23,7 @@ namespace WindowsFormsApp1
 
         private void button2_Click(object sender, EventArgs e)
         {
-
+            textBox6.Text = Deshifr.DeshifrText(textBox2.Text);
         }
     }
 }
