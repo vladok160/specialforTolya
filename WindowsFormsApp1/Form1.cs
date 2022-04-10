@@ -18,27 +18,12 @@ namespace WindowsFormsApp1
         }
         private void button1_Click(object sender, EventArgs e)
         {
+            textBox2.Text = Shifr.Zashifr(textBox1.Text, textBox3.Text);
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            
-        }
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
 
         }
-        //public string rashifr(char[] text_for_decrypt, char[] arr_decrypt_letters)
-        //{
-        //    char[] arr_encrypt_letters = { ' ', 'о', 'а', 'е', 'и', 'т', 'н', 'л', 'р', 'с', 'в', 'к', 'м', 'д', 'у', 'п', 'б', 'г', 'ы', 'ч', 'ь', 'з', 'я', 'й', 'х', 'ж', 'ш', 'ю', 'ф', 'э', 'щ', 'ё', 'ц', 'ъ' };
-        //    char[] arr_encrypt_text = { };
-        //    Dictionary<char, char> zip = new Dictionary<char, char>();
-
-
-        //}
-
-
-
     }
 }

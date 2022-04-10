@@ -8,8 +8,11 @@ namespace WindowsFormsApp1
 {
     class Shifr
     {
-        public string Zashifr(string m, string k)
+        public static string Zashifr(string m, string k)
         {
+            // Cчитываем из окна сообщения
+            //string m = textBox1.Text;
+            //string k = textBox3.Text;
 
             int nomer; // Номер в алфавите
             int d; // Смещение
@@ -70,7 +73,6 @@ namespace WindowsFormsApp1
                     massage[i] = alfavit[d]; // Меняем букву
                 }
             }
-
             s = new string(massage); // Собираем символы обратно в строку.
             return s;
         }
